@@ -1,6 +1,6 @@
 package PropiosTPO;
 
-public class Equipo {
+public class Equipo implements Comparable {
     private Comparable nombrePais;
     private String directorTecnico;
     private char grupo;
@@ -25,7 +25,14 @@ public class Equipo {
     public char getGrupo() {
         return grupo;
     }
-
     
+    public int compareTo(Comparable equipo2){
+        int resp=0;
+        
+
+
+        return resp;
+    }
+
 
 }

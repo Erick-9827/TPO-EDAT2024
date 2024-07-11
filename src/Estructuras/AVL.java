@@ -1,5 +1,7 @@
 package Estructuras;
 
+import PropiosTPO.Equipo;
+
 public class AVL {
 
     private NodoAVL raiz;
@@ -15,7 +17,7 @@ public class AVL {
      * @param elemento
      * @return
      */
-    public boolean insertar(Comparable elemento) {
+    public boolean insertar(Equipo elemento) {
         boolean exito = false;
 
         if (this.raiz == null) {
@@ -47,7 +49,7 @@ public class AVL {
      * metodo auxiliar de inserrecibe un subraiz para insertar
      *
      */
-    private boolean insertarAux(NodoAVL padre, NodoAVL actual, char ladoHijo, Comparable elem) {
+    private boolean insertarAux(NodoAVL padre, NodoAVL actual, char ladoHijo, Equipo elem) {
         //comparamos con el elemento actual
         boolean exito = false;
 
