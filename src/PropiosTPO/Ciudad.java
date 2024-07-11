@@ -3,8 +3,7 @@ package PropiosTPO;
 public class Ciudad {
 
     private String nombre;
-    private boolean alojamientoDisp;
-    private boolean sedeDeCopa;
+    private boolean alojamientoDisp, sedeDeCopa;
 
     public Ciudad(String nombre) {
         this.nombre = nombre;
