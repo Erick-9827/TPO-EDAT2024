@@ -10,7 +10,6 @@ import PropiosTPO.Ciudad;
             grafo.insertarVertice(new Ciudad("Neuquen"));
             grafo.insertarVertice(new Ciudad("Plottier"));
             grafo.insertarVertice(new Ciudad("Centenario"));
-            grafo.insertarVertice(new Ciudad("Cipolletti"));
             grafo.insertarVertice(new Ciudad("Senillosa"));
             System.out.println(grafo.toString());
     
